@@ -1,0 +1,23 @@
+{
+  "name": "json-to-d2",
+  "version": "1.0.0",
+  "description": "## 📁 Structure attendue",
+  "main": "generate_d2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hediboissard/Json-to-D2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hediboissard/Json-to-D2/issues"
+  },
+  "homepage": "https://github.com/hediboissard/Json-to-D2#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
