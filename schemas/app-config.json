@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "app-config.json",
+  "title": "AppConfig",
+  "type": "object",
+  "properties": {
+    "startPage": { "type": "string" },
+    "menuItems": { "type": "array", "items": { "$ref": "menu-item.json" } },
+    "footer": { "type": "array", "items": { "$ref": "footer-item.json" } },
+    "ui": { "$ref": "ui-config.json" },
+    "publication": { "$ref": "publication-infos.json" }
+  }
+}

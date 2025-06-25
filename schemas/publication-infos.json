@@ -1,0 +1,8 @@
+{
+  "title": "PublicationInfos",
+  "type": "object",
+  "properties": {
+    "version": { "type": "string" },
+    "id": { "type": "string" }
+  }
+}
